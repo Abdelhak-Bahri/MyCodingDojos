@@ -1,0 +1,14 @@
+Le Lorem Ipsum est simplement du faux texte employ
+é dans la composition et la mise en page avant imp
+ression. Le Lorem Ipsum est le faux texte standard
+ de l'imprimerie depuis les années 1500, quand un 
+imprimeur anonyme assembla ensemble des morceaux d
+e texte pour réaliser un livre spécimen de polices
+ de texte. Il n'a pas fait que survivre cinq siècl
+es, mais s'est aussi adapté à la bureautique infor
+matique, sans que son contenu n'en soit modifié. I
+l a été popularisé dans les années 1960 grâce à la
+ vente de feuilles Letraset contenant des passages
+ du Lorem Ipsum, et, plus récemment, par son inclu
+sion dans des applications de mise en page de text
+e, comme Aldus PageMaker
