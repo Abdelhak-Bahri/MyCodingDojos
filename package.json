@@ -1,0 +1,26 @@
+{
+  "name": "mycodingdojos",
+  "version": "1.0.0",
+  "description": "i will put here some snippets about my solutions for coding dojos Katas https://codingdojo.org/KataCatalogue/",
+  "scripts": {
+    "start": "node index.js",
+    "FooBarQix": "node FooBarQix/FooBarQix.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdelhak-Bahri/MyCodingDojos.git"
+  },
+  "keywords": [
+    "kata",
+    "codingdojos"
+  ],
+  "author": "abdelhak-bahri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdelhak-Bahri/MyCodingDojos/issues"
+  },
+  "homepage": "https://github.com/Abdelhak-Bahri/MyCodingDojos#readme",
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
+}

@@ -1,0 +1,1 @@
+console.log('available scripts: npm run-script FooBarQix');
