@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "i will put here some snippets about my solutions for coding dojos Katas https://codingdojo.org/KataCatalogue/",
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node spec",
+    "test": "./node_modules/.bin/jasmine-node ./spec",
     "start": "node index.js",
     "FooBarQix": "node FooBarQix/FooBarQix.js"
   },

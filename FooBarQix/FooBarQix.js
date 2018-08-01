@@ -4,6 +4,11 @@
  * Author: abdelhak-bahri
  */
 
+
+var exports = module.exports = {};
+
+
+
 /** 
  * these are some Callbacks for our conditions types 
  * if we have new specifictions that have different returned values/ different conditions, 
@@ -44,7 +49,7 @@ let conditionsArray = [
 ]
 
 // the heart of our module is this fonction, it loops overs conditions and invoke callbacks
-function compute(number){
+exports.compute = function(number){
     result =  conditionsArray.reduce(function(accumulateur, ConditionCourante, index, array){
         return accumulateur + ConditionCourante.conditionTypes.reduce(function(accumulateur, callbackCourant, index, array){
             return accumulateur + callbackCourant(number,ConditionCourante.digitToreplace,ConditionCourante.newString);
@@ -55,8 +60,9 @@ function compute(number){
 
 /**
  * Main program, loop over numbers and compute each one
+ * 
+    for(i=1;i<=100;i++){
+	    result=exports.compute(i);
+	    console.log(i,result);
+    }
  */
-for(i=1;i<=100;i++){
-	result=compute(i);
-	console.log(i,result);
-}
